@@ -30,9 +30,9 @@ function getLabeledFaceDescriptions() {
   // So I believe the software isnt too great at picking up faces, or it needs better photos
   // Dear marker, if you could try add yourself with 4 PNG photos on your local version of this code then it may work 
   // as it relies on seeing people in real time. Try use photos from Fadi and Laith, on another device 
-  const labels = ["Laith", "Fadi"];
+  const database_members = ["Laith", "Fadi"];
   return Promise.all(
-    labels.map(async (label) => {
+    database_members.map(async (label) => {
       const descriptions = [];
       for (let i = 1; i <= 3; i++) {
         const img = await faceapi.fetchImage(`./labels/${label}/${i}.png`);
