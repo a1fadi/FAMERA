@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.viewer-container {
+    background: #fff;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.webcam-feed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+video {
+    width: 40%;
+    max-width: 40%;
+    height: auto;
+    border: 1px solid #ccc;
+}

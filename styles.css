@@ -1,0 +1,63 @@
+body {
+    background-image: url('famera.png');
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    background: rgb(48,82,83,1);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 200px;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: rgba(224,204,182,1);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgba(224,204,182,1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgba(224,204,182,1);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48,82,83,1);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(1,1,1,1);
+    color: rgba(224,204,182,1);
+}
